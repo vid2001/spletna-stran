@@ -1,0 +1,41 @@
+#profile {
+    float: left;
+    width: 400px;
+    margin: 40px 0 0 40px;
+    border-style: solid;
+    padding: 0px 10px 0px 20px;
+    border-radius: 20px; 
+}
+
+#galery {
+   width: 700px;
+}
+
+#galery > img {
+   width: 300px;
+    margin: 20px;
+}
+
+.shadow {
+-webkit-box-shadow: 14px 15px 37px -5px rgba(168,168,168,1);
+-moz-box-shadow: 14px 15px 37px -5px rgba(168,168,168,1);
+box-shadow: 14px 15px 37px -5px rgba(168,168,168,1);
+}
+
+#sidebar {
+    float: left;
+    margin: 40px 0 0 40px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+#sidebar ul {
+    padding: 0px;
+}
+#sidebar ul > li {
+    margin-top: 10px
+}
+#sidebar img {
+    border-radius: 20px;
+}
